@@ -1,5 +1,9 @@
 # amazon-mcp
 
+<p align="center">
+  <img src="docs/images/coaxon_command_center_demo.png" alt="Claude Code Demo - CoAxon Command Center" width="100%"/>
+</p>
+
 MCP server for Amazon Selling Partner API (SP-API) and Advertising API — exposes orders, inventory, pricing, ads, reports, and related read paths to Claude, Cursor, and other MCP clients.
 
 ## Quick Start
