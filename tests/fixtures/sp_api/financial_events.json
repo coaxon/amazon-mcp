@@ -1,0 +1,109 @@
+{
+  "payload": {
+    "FinancialEvents": {
+      "ShipmentEventList": [
+        {
+          "AmazonOrderId": "902-1234567-8901234",
+          "SellerOrderId": "SO-FIX-001",
+          "MarketplaceName": "Amazon.com",
+          "PostedDate": "2026-06-10T14:22:11Z",
+          "ShipmentItemList": [
+            {
+              "SellerSKU": "SKU-FIX-001",
+              "OrderItemId": "12345678901234",
+              "QuantityShipped": 108,
+              "ItemChargeList": [
+                {
+                  "ChargeType": "Principal",
+                  "ChargeAmount": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": 3240.0
+                  }
+                }
+              ],
+              "ItemFeeList": [
+                {
+                  "FeeType": "FBAPerUnitFulfillmentFee",
+                  "FeeAmount": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": -170.0
+                  }
+                },
+                {
+                  "FeeType": "Commission",
+                  "FeeAmount": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": -486.0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "AmazonOrderId": "902-2222222-3333333",
+          "SellerOrderId": "SO-FIX-002",
+          "MarketplaceName": "Amazon.com",
+          "PostedDate": "2026-06-09T10:00:00Z",
+          "ShipmentItemList": [
+            {
+              "SellerSKU": "SKU-FIX-002",
+              "OrderItemId": "22345678901234",
+              "QuantityShipped": 62,
+              "ItemChargeList": [
+                {
+                  "ChargeType": "Principal",
+                  "ChargeAmount": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": 1240.0
+                  }
+                }
+              ],
+              "ItemFeeList": [
+                {
+                  "FeeType": "FBAPerUnitFulfillmentFee",
+                  "FeeAmount": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": -65.0
+                  }
+                },
+                {
+                  "FeeType": "Commission",
+                  "FeeAmount": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": -186.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "RefundEventList": [
+        {
+          "AmazonOrderId": "902-9876543-2109876",
+          "PostedDate": "2026-06-11T09:15:00Z",
+          "ShipmentItemAdjustmentList": [
+            {
+              "SellerSKU": "SKU-FIX-002",
+              "OrderAdjustmentItemId": "98765432109876",
+              "QuantityShipped": 8,
+              "ItemChargeAdjustmentList": [
+                {
+                  "ChargeType": "Principal",
+                  "ChargeAmount": {
+                    "CurrencyCode": "USD",
+                    "CurrencyAmount": -155.0
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ServiceFeeEventList": [],
+      "AdjustmentEventList": []
+    },
+    "NextToken": null
+  }
+}

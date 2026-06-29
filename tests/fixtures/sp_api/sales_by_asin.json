@@ -1,0 +1,34 @@
+{
+  "7": [
+    {
+      "asin": "B0FIXTURE01",
+      "units": 84,
+      "revenue_usd": 4199.16,
+      "sessions": 1203,
+      "conversion_rate": 0.07
+    },
+    {
+      "asin": "B0FIXTURE02",
+      "units": 14,
+      "revenue_usd": 699.86,
+      "sessions": 210,
+      "conversion_rate": 0.067
+    }
+  ],
+  "30": [
+    {
+      "asin": "B0FIXTURE01",
+      "units": 360,
+      "revenue_usd": 17996.4,
+      "sessions": 5200,
+      "conversion_rate": 0.069
+    },
+    {
+      "asin": "B0FIXTURE02",
+      "units": 60,
+      "revenue_usd": 2999.4,
+      "sessions": 900,
+      "conversion_rate": 0.067
+    }
+  ]
+}

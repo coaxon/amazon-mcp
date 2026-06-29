@@ -1,0 +1,2 @@
+=== Auto-TOC for sp_api_data_coverage.md ===
+# Amazon SP-API Data Coverage

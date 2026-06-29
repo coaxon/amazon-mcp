@@ -1,0 +1,11 @@
+amazon-order-id	purchase-date	payments-date	order-status	fulfillment-channel	sales-channel	order-channel	ship-service-level	product-name	sku	asin	item-status	quantity	currency	item-price	ship-city	ship-state	ship-postal-code	ship-country	item-tax
+111-0000001-0000001	2026-05-30	2026-05-30	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product One	SKU-FIX-001	B0FIXTURE01	Shipped	2	USD	25.00	Portland	OR	97201	US	2.25
+111-0000002-0000002	2026-05-31	2026-05-31	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product Two	SKU-FIX-002	B0FIXTURE02	Shipped	3	USD	18.50	Seattle	WA	98101	US	1.67
+111-0000003-0000003	2026-05-29	2026-05-29	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product One	SKU-FIX-001	B0FIXTURE01	Shipped	1	USD	25.00	Eugene	OR	97401	US	2.25
+111-0000004-0000004	2026-06-01	2026-06-01	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product One	SKU-FIX-001	B0FIXTURE01	Shipped	2	USD	25.00	Salem	OR	97301	US	2.25
+111-0000005-0000005	2026-06-02	2026-06-02	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product Two	SKU-FIX-002	B0FIXTURE02	Shipped	1	USD	18.50	Los Angeles	CA	90001	US	1.67
+111-0000006-0000006	2026-06-03	2026-06-03	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product One	SKU-FIX-001	B0FIXTURE01	Shipped	1	USD	25.00	San Francisco	CA	94105	US	2.25
+111-0000007-0000007	2026-06-04	2026-06-04	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product Two	SKU-FIX-002	B0FIXTURE02	Shipped	2	USD	18.50	Medford	OR	97501	US	1.67
+111-0000008-0000008	2026-06-05	2026-06-05	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product One	SKU-FIX-001	B0FIXTURE01	Shipped	1	USD	25.00	Austin	TX	78701	US	2.25
+111-0000009-0000009	2026-06-06	2026-06-06	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product Two	SKU-FIX-002	B0FIXTURE02	Shipped	3	USD	18.50	Houston	TX	77001	US	1.67
+111-0000010-0000010	2026-06-07	2026-06-07	Shipped	AFN	Amazon.com	null	Std US D2D Dom	Fixture Product One	SKU-FIX-001	B0FIXTURE01	Shipped	1	USD	25.00	Bend	OR	97701	US	2.25

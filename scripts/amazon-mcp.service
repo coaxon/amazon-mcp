@@ -1,0 +1,21 @@
+[Unit]
+Description=Amazon MCP Server (streamable-http)
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/amazon-mcp
+EnvironmentFile=/opt/amazon-mcp/.env
+ExecStart=/opt/amazon-mcp/venv/bin/python -m amazon_mcp
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=amazon-mcp
+
+# Write access for SQLite database
+ReadWritePaths=/opt/amazon-mcp/data
+
+[Install]
+WantedBy=multi-user.target

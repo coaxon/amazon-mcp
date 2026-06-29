@@ -1,0 +1,12 @@
+{
+  "notificationType": "ANY_OFFER_CHANGED",
+  "payloadVersion": "1.0",
+  "AnyOfferChangedNotification": {
+    "OfferChangeTrigger": {
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "ASIN": "B0FIXTURE01",
+      "OfferChangeType": "Internal",
+      "TimeOfOfferChange": "2026-06-15T08:00:00Z"
+    }
+  }
+}

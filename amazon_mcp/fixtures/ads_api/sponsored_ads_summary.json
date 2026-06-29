@@ -1,0 +1,13 @@
+{
+  "profileId": 1234567890,
+  "countryCode": "US",
+  "currencyCode": "USD",
+  "dailyBudget": 100.0,
+  "accountInfo": {
+    "marketplaceStringId": "ATVPDKIKX0DER",
+    "id": "ENTITYFIX001",
+    "type": "seller",
+    "name": "Fixture Seller Account",
+    "validPaymentMethod": true
+  }
+}

@@ -1,0 +1,34 @@
+# Amazon MCP — one-command local / VPS deploy (no systemd required)
+#
+# Quick start:
+#   cp .env.example .env
+#   docker compose up -d --build
+#   curl http://127.0.0.1:8780/health
+#
+services:
+  amazon-mcp:
+    build: .
+    image: amazon-mcp:local
+    restart: unless-stopped
+    ports:
+      - "${AMAZON_MCP_PORT:-8780}:8780"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      AMAZON_MCP_TRANSPORT: streamable-http
+      AMAZON_MCP_HOST: 0.0.0.0
+      AMAZON_MCP_PORT: "8780"
+      AMAZON_MCP_DRY_RUN: "${AMAZON_MCP_DRY_RUN:-1}"
+      AMAZON_MCP_LOG_LEVEL: "${AMAZON_MCP_LOG_LEVEL:-INFO}"
+    volumes:
+      - amazon-mcp-data:/app/data
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://127.0.0.1:8780/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+volumes:
+  amazon-mcp-data:

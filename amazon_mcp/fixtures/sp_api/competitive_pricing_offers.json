@@ -1,0 +1,117 @@
+{
+  "payload": {
+    "ASIN": "B0FIXTURE01",
+    "status": "Success",
+    "ItemCondition": "New",
+    "Identifier": {
+      "MarketplaceId": "ATVPDKIKX0DER",
+      "ASIN": "B0FIXTURE01",
+      "SellerSKU": "SKU-FIX-001"
+    },
+    "Summary": {
+      "TotalOfferCount": 3,
+      "NumberOfOffers": [
+        {
+          "condition": "new",
+          "fulfillmentChannel": "Amazon",
+          "OfferCount": 2
+        },
+        {
+          "condition": "new",
+          "fulfillmentChannel": "Merchant",
+          "OfferCount": 1
+        }
+      ],
+      "LowestPrices": [
+        {
+          "condition": "new",
+          "fulfillmentChannel": "Amazon",
+          "LandedPrice": {
+            "CurrencyCode": "USD",
+            "Amount": 26.0
+          },
+          "ListingPrice": {
+            "CurrencyCode": "USD",
+            "Amount": 26.0
+          },
+          "Shipping": {
+            "CurrencyCode": "USD",
+            "Amount": 0.0
+          }
+        }
+      ],
+      "BuyBoxPrices": [
+        {
+          "condition": "New",
+          "LandedPrice": {
+            "CurrencyCode": "USD",
+            "Amount": 28.99
+          },
+          "ListingPrice": {
+            "CurrencyCode": "USD",
+            "Amount": 28.99
+          },
+          "Shipping": {
+            "CurrencyCode": "USD",
+            "Amount": 0.0
+          }
+        }
+      ],
+      "ListPrice": {
+        "CurrencyCode": "USD",
+        "Amount": 34.99
+      },
+      "CompetitivePriceThreshold": {
+        "CurrencyCode": "USD",
+        "Amount": 27.5
+      }
+    },
+    "Offers": [
+      {
+        "SellerId": "A1SELLER01",
+        "SubCondition": "new",
+        "SellerFeedbackRating": {
+          "SellerPositiveFeedbackRating": 98,
+          "FeedbackCount": 1240
+        },
+        "ShippingTime": {
+          "minimumHours": 24,
+          "maximumHours": 48,
+          "availabilityType": "NOW"
+        },
+        "ListingPrice": {
+          "CurrencyCode": "USD",
+          "Amount": 28.99
+        },
+        "Shipping": {
+          "CurrencyCode": "USD",
+          "Amount": 0.0
+        },
+        "IsFulfilledByAmazon": true,
+        "IsBuyBoxWinner": true,
+        "PrimeInformation": {
+          "IsPrime": true,
+          "IsNationalPrime": true
+        },
+        "IsFeaturedMerchant": true
+      },
+      {
+        "SellerId": "A2SELLER02",
+        "SubCondition": "new",
+        "ListingPrice": {
+          "CurrencyCode": "USD",
+          "Amount": 31.5
+        },
+        "Shipping": {
+          "CurrencyCode": "USD",
+          "Amount": 3.99
+        },
+        "IsFulfilledByAmazon": false,
+        "IsBuyBoxWinner": false,
+        "PrimeInformation": {
+          "IsPrime": false
+        }
+      }
+    ]
+  }
+}

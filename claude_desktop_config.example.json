@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "amazon-sp": {
+      "url": "http://127.0.0.1:8780/mcp",
+      "headers": {
+        "Authorization": "Bearer ${AMAZON_MCP_API_KEY}"
+      }
+    }
+  },
+  "_comment": "Set AMAZON_MCP_API_KEY in server .env. For stdio/dry-run see README."
+}

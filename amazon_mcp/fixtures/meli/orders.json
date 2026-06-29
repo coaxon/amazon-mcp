@@ -1,0 +1,33 @@
+{
+  "MLA": {
+    "results": [
+      {"id": 2000000001, "status": "paid", "total_amount": 18500.0,
+       "currency_id": "ARS", "date_created": "2026-06-25T10:00:00.000-03:00",
+       "order_items": [{"quantity": 2, "unit_price": 9250.0, "item": {"id": "MLA900000001", "title": "Auriculares Bluetooth Pro"}}]},
+      {"id": 2000000002, "status": "paid", "total_amount": 32000.0,
+       "currency_id": "ARS", "date_created": "2026-06-25T11:30:00.000-03:00",
+       "order_items": [{"quantity": 1, "unit_price": 32000.0, "item": {"id": "MLA900000002", "title": "Smartwatch Serie 5"}}]},
+      {"id": 2000000003, "status": "paid", "total_amount": 9500.0,
+       "currency_id": "ARS", "date_created": "2026-06-24T15:00:00.000-03:00",
+       "order_items": [{"quantity": 3, "unit_price": 3166.67, "item": {"id": "MLA900000003", "title": "Cable USB-C 2m"}}]},
+      {"id": 2000000004, "status": "cancelled", "total_amount": 18500.0,
+       "currency_id": "ARS", "date_created": "2026-06-24T09:00:00.000-03:00",
+       "order_items": [{"quantity": 2, "unit_price": 9250.0, "item": {"id": "MLA900000001", "title": "Auriculares Bluetooth Pro"}}]},
+      {"id": 2000000005, "status": "paid", "total_amount": 14200.0,
+       "currency_id": "ARS", "date_created": "2026-06-23T14:20:00.000-03:00",
+       "order_items": [{"quantity": 1, "unit_price": 14200.0, "item": {"id": "MLA900000004", "title": "Cargador Inalámbrico 15W"}}]}
+    ],
+    "paging": {"total": 5, "offset": 0, "limit": 50}
+  },
+  "MLB": {
+    "results": [
+      {"id": 3000000001, "status": "paid", "total_amount": 280.0,
+       "currency_id": "BRL", "date_created": "2026-06-25T12:00:00.000-03:00",
+       "order_items": [{"quantity": 1, "unit_price": 280.0, "item": {"id": "MLB900000001", "title": "Fone Bluetooth Pro"}}]},
+      {"id": 3000000002, "status": "paid", "total_amount": 520.0,
+       "currency_id": "BRL", "date_created": "2026-06-24T10:30:00.000-03:00",
+       "order_items": [{"quantity": 2, "unit_price": 260.0, "item": {"id": "MLB900000002", "title": "Smartwatch Serie 5"}}]}
+    ],
+    "paging": {"total": 2, "offset": 0, "limit": 50}
+  }
+}

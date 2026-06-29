@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "scenario": "daily_briefing",
+  "date": "2026-06-14",
+  "scoring_version": "v1-weighted",
+  "dry_run": true,
+  "summary": "No low-score ASINs, No pending inventory or price alerts, ads need monitoring",
+  "inventory_alerts": [],
+  "low_score_asins": [],
+  "ad_health": {
+    "status": "watch",
+    "acos": 0.228,
+    "score": 60
+  },
+  "price_changes": [],
+  "profit_snapshot": {
+    "period": "last 30 days",
+    "period_days": 30,
+    "total_revenue": 4480.0,
+    "total_fees_breakdown": {
+      "referral": 672.0,
+      "fba": 235.0,
+      "refunds": 155.0,
+      "ads": 1020.0
+    },
+    "net_margin_pct": 10.0,
+    "target_margin_pct": 15.0,
+    "asins_below_target_margin": [
+      {
+        "asin": "B0FIXTURE02",
+        "net_margin_pct": -8.2,
+        "revenue": 1240.0,
+        "margin_status": "with_cogs"
+      }
+    ],
+    "by_asin": {
+      "B0FIXTURE01": {
+        "asin": "B0FIXTURE01",
+        "revenue": 3240.0,
+        "referral_fee": 486.0,
+        "fba_fee": 170.0,
+        "refunds": 0.0,
+        "ad_spend": 540.0,
+        "cogs": 1495.0,
+        "net_margin_pct": 16.9,
+        "margin_status": "with_cogs"
+      },
+      "B0FIXTURE02": {
+        "asin": "B0FIXTURE02",
+        "revenue": 1240.0,
+        "referral_fee": 186.0,
+        "fba_fee": 65.0,
+        "refunds": 155.0,
+        "ad_spend": 480.0,
+        "cogs": 456.0,
+        "net_margin_pct": -8.2,
+        "margin_status": "with_cogs"
+      }
+    },
+    "data_completeness": {
+      "financial_events": true,
+      "fee_breakdown_available": true,
+      "ad_spend_source": "get_product_ad_performance",
+      "ad_spend_allocation": "per_asin",
+      "cogs_provided": true,
+      "cogs_coverage": "2/2 ASINs",
+      "margin_type": "demo_estimated_cogs",
+      "cogs_input": "Provide cogs_by_asin or cogs_by_sku in params (total COGS per ASIN/SKU for period)"
+    }
+  },
+  "recommended_actions": [],
+  "meta": {
+    "monitored_asin_count": 1,
+    "pending_alert_count": 0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "asin": "B0FIXTURE01",
+  "summaries": [
+    {
+      "marketplaceId": "ATVPDKIKX0DER",
+      "brandName": "FixtureBrand",
+      "browseClassification": {
+        "displayName": "Electronics",
+        "classificationId": "172282"
+      },
+      "itemName": "Fixture Wireless Bluetooth Speaker",
+      "manufacturer": "FixtureBrand Inc.",
+      "modelNumber": "FBT-100",
+      "colorName": "Black",
+      "sizeName": "Standard"
+    }
+  ],
+  "salesRanks": [
+    {
+      "marketplaceId": "ATVPDKIKX0DER",
+      "ranks": [
+        {
+          "title": "Electronics",
+          "link": "https://www.amazon.com/gp/bestsellers/electronics",
+          "rank": 8421
+        },
+        {
+          "title": "Portable Bluetooth Speakers",
+          "link": "https://www.amazon.com/gp/bestsellers/...",
+          "rank": 312
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "marketplaceId": "ATVPDKIKX0DER",
+      "classifications": [
+        {
+          "displayName": "Portable Bluetooth Speakers",
+          "classificationId": "7073956011",
+          "parent": {
+            "displayName": "Portable Speakers & Docks",
+            "classificationId": "172563",
+            "parent": {
+              "displayName": "Electronics",
+              "classificationId": "172282"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": {},
+  "dimensions": [],
+  "identifiers": [],
+  "images": [],
+  "productTypes": [],
+  "relationships": []
+}

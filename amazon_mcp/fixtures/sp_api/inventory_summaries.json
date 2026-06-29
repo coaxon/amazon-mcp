@@ -1,0 +1,104 @@
+{
+  "payload": {
+    "granularity": {
+      "granularityType": "Marketplace",
+      "granularityId": "ATVPDKIKX0DER"
+    },
+    "inventorySummaries": [
+      {
+        "asin": "B0FIXTURE01",
+        "fnSku": "X001FIX001",
+        "sellerSku": "SKU-FIX-001",
+        "condition": "NewItem",
+        "inventoryDetails": {
+          "fulfillableQuantity": 8,
+          "inboundWorkingQuantity": 0,
+          "inboundShippedQuantity": 20,
+          "inboundReceivingQuantity": 0,
+          "reservedQuantity": {
+            "totalReservedQuantity": 2,
+            "pendingCustomerOrderQuantity": 1
+          },
+          "researchingQuantity": { "totalResearchingQuantity": 0 },
+          "unfulfillableQuantity": { "totalUnfulfillableQuantity": 0 }
+        },
+        "lastUpdatedTime": "2026-06-14T08:00:00Z",
+        "productName": "Fixture Test Product A",
+        "totalQuantity": 30
+      },
+      {
+        "asin": "B0FIXTURE02",
+        "fnSku": "X001FIX002",
+        "sellerSku": "SKU-FIX-002",
+        "condition": "NewItem",
+        "inventoryDetails": {
+          "fulfillableQuantity": 45,
+          "inboundWorkingQuantity": 5,
+          "inboundShippedQuantity": 0,
+          "inboundReceivingQuantity": 0,
+          "reservedQuantity": { "totalReservedQuantity": 0 },
+          "researchingQuantity": { "totalResearchingQuantity": 0 },
+          "unfulfillableQuantity": { "totalUnfulfillableQuantity": 1 }
+        },
+        "lastUpdatedTime": "2026-06-14T08:00:00Z",
+        "productName": "Fixture Test Product B",
+        "totalQuantity": 50
+      },
+      {
+        "asin": "B0FIXTURE03",
+        "fnSku": "X001FIX003",
+        "sellerSku": "SKU-FIX-003",
+        "condition": "NewItem",
+        "inventoryDetails": {
+          "fulfillableQuantity": 120,
+          "inboundWorkingQuantity": 0,
+          "inboundShippedQuantity": 0,
+          "inboundReceivingQuantity": 0,
+          "reservedQuantity": { "totalReservedQuantity": 0 },
+          "researchingQuantity": { "totalResearchingQuantity": 0 },
+          "unfulfillableQuantity": { "totalUnfulfillableQuantity": 0 }
+        },
+        "lastUpdatedTime": "2025-12-18T08:00:00Z",
+        "productName": "Fixture Product C — LTSF Exceeded (>181d)",
+        "totalQuantity": 120
+      },
+      {
+        "asin": "B0FIXTURE04",
+        "fnSku": "X001FIX004",
+        "sellerSku": "SKU-FIX-004",
+        "condition": "NewItem",
+        "inventoryDetails": {
+          "fulfillableQuantity": 30,
+          "inboundWorkingQuantity": 0,
+          "inboundShippedQuantity": 0,
+          "inboundReceivingQuantity": 0,
+          "reservedQuantity": { "totalReservedQuantity": 0 },
+          "researchingQuantity": { "totalResearchingQuantity": 0 },
+          "unfulfillableQuantity": { "totalUnfulfillableQuantity": 0 }
+        },
+        "lastUpdatedTime": "2026-01-17T08:00:00Z",
+        "productName": "Fixture Product D — LTSF Warning (>150d)",
+        "totalQuantity": 30
+      },
+      {
+        "asin": "B0FIXTURE05",
+        "fnSku": "X001FIX005",
+        "sellerSku": "SKU-FIX-005",
+        "condition": "NewItem",
+        "inventoryDetails": {
+          "fulfillableQuantity": 15,
+          "inboundWorkingQuantity": 0,
+          "inboundShippedQuantity": 0,
+          "inboundReceivingQuantity": 0,
+          "reservedQuantity": { "totalReservedQuantity": 0 },
+          "researchingQuantity": { "totalResearchingQuantity": 0 },
+          "unfulfillableQuantity": { "totalUnfulfillableQuantity": 0 }
+        },
+        "lastUpdatedTime": "2026-05-07T08:00:00Z",
+        "productName": "Fixture Product E — Safe (<50d)",
+        "totalQuantity": 15
+      }
+    ]
+  },
+  "pagination": {}
+}

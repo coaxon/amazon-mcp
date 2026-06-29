@@ -1,0 +1,14 @@
+{
+  "products": [
+    {"product_id": "TTP001", "product_name": "Bluetooth Headphones Pro",
+     "skus": [{"id": "BT-PRO-US", "seller_sku": "BT-PRO-US",
+               "stock_infos": [{"available_stock": 22, "warehouse_type": "FBT"}]}]},
+    {"product_id": "TTP002", "product_name": "Smartwatch Series 5",
+     "skus": [{"id": "SW-S5-US", "seller_sku": "SW-S5-US",
+               "stock_infos": [{"available_stock": 5, "warehouse_type": "FBT"}]}]},
+    {"product_id": "TTP003", "product_name": "Wireless Charger 15W",
+     "skus": [{"id": "WC-15W-US", "seller_sku": "WC-15W-US",
+               "stock_infos": [{"available_stock": 0, "warehouse_type": "seller_shipping"}]}]}
+  ],
+  "total": 3
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "date": "2026-06-07",
+    "campaignId": 1001,
+    "campaignName": "SP-Auto-Main",
+    "campaignStatus": "ENABLED",
+    "campaignBudgetAmount": 50.0,
+    "campaignBudgetCurrencyCode": "USD",
+    "impressions": 3200,
+    "clicks": 96,
+    "cost": 20.16,
+    "costPerClick": 0.21,
+    "clickThroughRate": 0.03,
+    "sales1d": 126.4,
+    "sales7d": 142.8,
+    "sales14d": 142.8,
+    "sales30d": 142.8,
+    "purchases1d": 4,
+    "purchases7d": 5,
+    "purchases14d": 5,
+    "purchases30d": 5,
+    "unitsSoldClicks1d": 4,
+    "unitsSoldClicks7d": 5,
+    "acosClicks7d": 0.141,
+    "roasClicks7d": 7.08
+  },
+  {
+    "date": "2026-06-07",
+    "campaignId": 1002,
+    "campaignName": "SP-Manual-KW",
+    "campaignStatus": "ENABLED",
+    "impressions": 2700,
+    "clicks": 74,
+    "cost": 17.76,
+    "sales7d": 98.5,
+    "acosClicks7d": 0.18,
+    "roasClicks7d": 5.55
+  }
+]

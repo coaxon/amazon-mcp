@@ -1,0 +1,20 @@
+[Unit]
+Description=Amazon MCP Server (streamable-http)
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=@INSTALL_DIR@
+EnvironmentFile=@INSTALL_DIR@/.env
+ExecStart=@INSTALL_DIR@/venv/bin/python -m amazon_mcp
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=@SERVICE_NAME@
+
+ReadWritePaths=@INSTALL_DIR@/data
+
+[Install]
+WantedBy=multi-user.target

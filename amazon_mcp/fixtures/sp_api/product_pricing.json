@@ -1,0 +1,69 @@
+{
+  "payload": [
+    {
+      "ASIN": "B0FIXTURE01",
+      "status": "Success",
+      "Product": {
+        "Identifiers": {
+          "MarketplaceASIN": {
+            "MarketplaceId": "ATVPDKIKX0DER",
+            "ASIN": "B0FIXTURE01"
+          }
+        },
+        "Offers": [
+          {
+            "BuyingPrice": {
+              "ListingPrice": {
+                "CurrencyCode": "USD",
+                "Amount": 29.99
+              },
+              "LandedPrice": {
+                "CurrencyCode": "USD",
+                "Amount": 29.99
+              },
+              "Shipping": {
+                "CurrencyCode": "USD",
+                "Amount": 0.0
+              }
+            },
+            "RegularPrice": {
+              "CurrencyCode": "USD",
+              "Amount": 34.99
+            },
+            "FulfillmentChannel": "Amazon",
+            "ItemCondition": "New",
+            "ItemSubCondition": "New"
+          }
+        ]
+      }
+    },
+    {
+      "ASIN": "B0FIXTURE02",
+      "status": "Success",
+      "Product": {
+        "Offers": [
+          {
+            "BuyingPrice": {
+              "ListingPrice": {
+                "CurrencyCode": "USD",
+                "Amount": 19.5
+              },
+              "LandedPrice": {
+                "CurrencyCode": "USD",
+                "Amount": 19.5
+              },
+              "Shipping": {
+                "CurrencyCode": "USD",
+                "Amount": 0.0
+              }
+            },
+            "RegularPrice": {
+              "CurrencyCode": "USD",
+              "Amount": 22.0
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

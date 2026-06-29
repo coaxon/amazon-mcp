@@ -1,0 +1,28 @@
+{
+  "MLA": {
+    "ok": true,
+    "platform": "meli",
+    "site_id": "MLA",
+    "items": [
+      {"item_id": "MLA900000001", "sku": "BT-PRO-AR", "title": "Auriculares Bluetooth Pro",
+       "on_hand": 45, "fulfillment_mode": "FULL", "site_id": "MLA"},
+      {"item_id": "MLA900000002", "sku": "SW-S5-AR",  "title": "Smartwatch Serie 5",
+       "on_hand": 12, "fulfillment_mode": "FULL", "site_id": "MLA"},
+      {"item_id": "MLA900000003", "sku": "CB-UC2-AR", "title": "Cable USB-C 2m",
+       "on_hand": 3,  "fulfillment_mode": "self_ship", "site_id": "MLA"},
+      {"item_id": "MLA900000004", "sku": "WC-15W-AR", "title": "Cargador Inalámbrico 15W",
+       "on_hand": 28, "fulfillment_mode": "FULL", "site_id": "MLA"}
+    ]
+  },
+  "MLB": {
+    "ok": true,
+    "platform": "meli",
+    "site_id": "MLB",
+    "items": [
+      {"item_id": "MLB900000001", "sku": "BT-PRO-BR", "title": "Fone Bluetooth Pro",
+       "on_hand": 30, "fulfillment_mode": "FULL", "site_id": "MLB"},
+      {"item_id": "MLB900000002", "sku": "SW-S5-BR",  "title": "Smartwatch Serie 5",
+       "on_hand": 8,  "fulfillment_mode": "FULL", "site_id": "MLB"}
+    ]
+  }
+}

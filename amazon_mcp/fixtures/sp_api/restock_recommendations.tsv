@@ -1,0 +1,5 @@
+ASIN	sku	fnsku	product-name	condition	fulfilled-by	your-price	sales-rank	alert-type	available-quantity	pending-quantity	reserved-quantity	inbound-quantity	total-quantity	days-of-supply	recommended-replenishment-qty	unit-type
+B0FIXTURE01	SKU-FIX-001	X001	Fixture Product One	New	AFN	29.99	1250	Reorder Now	8	0	2	0	10	14	36	Units
+B0FIXTURE02	SKU-FIX-002	X002	Fixture Product Two	New	AFN	49.99	850	Out of Stock	0	5	0	20	25	0	60	Units
+B0FIXTURE03	SKU-FIX-003	X003	Fixture Product Three	New	AFN	19.99	3400	Low Inventory	5	0	1	0	6	7	48	Units
+B0FIXTURE04	SKU-FIX-004	X004	Fixture Product Four	New	AFN	89.99	520	No Action Required	142	0	8	0	150	95		Units

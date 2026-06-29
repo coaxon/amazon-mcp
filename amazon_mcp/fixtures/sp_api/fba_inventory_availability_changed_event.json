@@ -1,0 +1,11 @@
+{
+  "notificationType": "FBA_INVENTORY_AVAILABILITY_CHANGES",
+  "payloadVersion": "1.0",
+  "FBAInventoryAvailabilityChangeNotification": {
+    "ASIN": "B0FIXTURE01",
+    "SKU": "SKU-FIX-001",
+    "EventTime": "2026-06-15T10:30:00Z",
+    "PreviousFulfillableQuantity": 120,
+    "FulfillableQuantity": 8
+  }
+}

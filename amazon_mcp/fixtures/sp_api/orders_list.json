@@ -1,0 +1,24 @@
+{
+  "payload": {
+    "Orders": [
+      {
+        "AmazonOrderId": "902-1234567-8901234",
+        "SellerOrderId": "SO-FIX-001",
+        "PurchaseDate": "2026-06-10T12:00:00Z",
+        "LastUpdateDate": "2026-06-10T14:22:11Z",
+        "OrderStatus": "Shipped",
+        "FulfillmentChannel": "AFN",
+        "SalesChannel": "Amazon.com",
+        "OrderTotal": {
+          "CurrencyCode": "USD",
+          "Amount": "64.78"
+        },
+        "NumberOfItemsShipped": 2,
+        "NumberOfItemsUnshipped": 0,
+        "MarketplaceId": "ATVPDKIKX0DER"
+      }
+    ],
+    "CreatedBefore": "2026-06-14T00:00:00Z",
+    "LastUpdatedBefore": "2026-06-14T00:00:00Z"
+  }
+}

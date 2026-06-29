@@ -1,0 +1,4 @@
+return-date	order-id	sku	asin	fnsku	product-name	quantity	fulfillment-center-id	detailed-disposition	reason	status	item-price
+2026-06-01	111-0000001-0000001	SKU-FIX-001	B0FIXTURE01	X001	Fixture Product One	1	PHX3	SELLABLE	CustomerDamaged	Unit returned to inventory	25.00
+2026-06-02	111-0000002-0000002	SKU-FIX-002	B0FIXTURE02	X002	Fixture Product Two	2	LAX9	SELLABLE	Defective	Unit returned to inventory	18.50
+2026-06-05	111-0000003-0000003	SKU-FIX-001	B0FIXTURE01	X001	Fixture Product One	1	PHX3	CUSTOMER_DAMAGED	NoReasonGiven	Unit returned to inventory	25.00

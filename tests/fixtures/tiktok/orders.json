@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {"order_id": "TT20260625001", "status": "COMPLETED", "create_time": 1750809600,
+     "total_amount": "49.99", "currency": "USD",
+     "line_items": [{"product_id": "TTP001", "product_name": "Bluetooth Headphones Pro",
+                     "sku_id": "BT-PRO-US", "quantity": 2, "sale_price": "24.99"}]},
+    {"order_id": "TT20260625002", "status": "COMPLETED", "create_time": 1750816800,
+     "total_amount": "89.99", "currency": "USD",
+     "line_items": [{"product_id": "TTP002", "product_name": "Smartwatch Series 5",
+                     "sku_id": "SW-S5-US", "quantity": 1, "sale_price": "89.99"}]},
+    {"order_id": "TT20260624001", "status": "COMPLETED", "create_time": 1750723200,
+     "total_amount": "74.97", "currency": "USD",
+     "line_items": [{"product_id": "TTP001", "product_name": "Bluetooth Headphones Pro",
+                     "sku_id": "BT-PRO-US", "quantity": 3, "sale_price": "24.99"}]},
+    {"order_id": "TT20260624002", "status": "CANCELLED", "create_time": 1750730400,
+     "total_amount": "39.99", "currency": "USD",
+     "line_items": [{"product_id": "TTP003", "product_name": "Wireless Charger 15W",
+                     "sku_id": "WC-15W-US", "quantity": 1, "sale_price": "39.99"}]}
+  ],
+  "total": 4,
+  "page_size": 20
+}

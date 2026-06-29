@@ -1,0 +1,4 @@
+snapshot-date	sku	fnsku	asin	product-name	condition	available	inventory-performance-index
+2026-06-15			ACCOUNT-SUMMARY			380
+2026-06-15	SKU-FIX-001	X001	B0FIXTURE01	Fixture Product One	New	8	380
+2026-06-15	SKU-FIX-002	X002	B0FIXTURE02	Fixture Product Two	New	0	380

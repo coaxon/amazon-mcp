@@ -1,0 +1,3 @@
+approval-date	reimbursement-id	case-id	amazon-order-id	reason	sku	fnsku	asin	product-name	condition	currency-unit	amount-per-unit	amount-total	quantity-reimbursed-cash	quantity-reimbursed-inventory	quantity-reimbursed-total
+2026-06-01	REIMB-001	CASE-100	111-0000001-0000001	CustomerReturn	SKU-FIX-001	X001	B0FIXTURE01	Fixture Product One	NewItem	USD	12.50	25.00	2	0	2
+2026-06-03	REIMB-002	CASE-101	111-0000002-0000002	Lost_Warehouse	SKU-FIX-002	X002	B0FIXTURE02	Fixture Product Two	NewItem	USD	8.75	8.75	1	0	1
