@@ -78,7 +78,7 @@ See [`claude_desktop_config.example.json`](claude_desktop_config.example.json).
 
 ## Dry-run (no credentials)
 
-Default `AMAZON_MCP_DRY_RUN=1` serves bundled fixtures — no LWA app, no Seller Central auth.
+Default `AMAZON_MCP_DRY_RUN=1` serves bundled fixtures — no LWA app, no Seller Central auth. **Defaulted to DRY_RUN=1 to keep your seller account safe while testing the logic.**
 
 ```bash
 cp .env.example .env
