@@ -1,0 +1,25 @@
+{
+  "tenant_id": "tenant_example_coaxon_12345",
+  "gateway_url": "https://gateway.finance.coaxon.me/ingest/amazon",
+  "hmac_secret": "YOUR_PRIVATE_BETA_HMAC_SECRET",
+  "sync_options": {
+    "auto_sync_settlements": true,
+    "sync_interval_hours": 24,
+    "default_status": "DRAFT"
+  },
+  "account_mappings": {
+    "principal_sales": "6001",
+    "fba_fulfillment_fees": "6601",
+    "advertising_spend": "6601_ADS",
+    "storage_fees": "6602_STORAGE",
+    "refunds": "6001_REFUND",
+    "disbursement_bank": "1002"
+  },
+  "marketplaces": [
+    {
+      "marketplace_id": "ATVPDKIKX0DER",
+      "currency": "USD",
+      "store_name": "US Flagship Store"
+    }
+  ]
+}

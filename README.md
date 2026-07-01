@@ -200,23 +200,26 @@ AMAZON_MCP_FORCE_CORE=1 python -m amazon_mcp   # simulate core-only in monorepo
 Tests are being updated for the core/pro split; not required for trying dry-run locally.
 
 ---
-## 💼 Beyond the API: CoAxon Finance MCP (Private Beta)
 
-Tired of manually reconciling Amazon settlements with bloated ERPs like QuickBooks or NetSuite? 
-
-While `amazon-mcp` handles your operational read/writes, the **CoAxon Finance MCP** is our closed-source, enterprise-grade financial nervous system designed specifically for multi-platform sellers and early-stage startups. 
-
-We replaced fragile spreadsheets and complex accounting software with a lightweight, AI-native financial ledger:
-* **Automated Ingestion:** Seamlessly unifies Amazon disbursements, Stripe webhook payouts, and manual CSV uploads into a single standard pipeline.
-* **Immutable Ledger Security:** Built with strict database-level Trigger Locks and tamper-proof audit trails. No silent overwrites, ever.
-* **Real-Time Reporting:** Instantly generate Profit & Loss (P&L), Balance Sheets, and Cash Flow statements without the end-of-month scramble.
-* **Zero Redundancy:** Smart resume protocols ensure that no transaction is ever verified or recorded twice, keeping your ledger perfectly balanced.
-
-Because strict financial compliance and multi-tenant isolation require absolute precision, the core Finance MCP is maintained as a closed-source managed service.
-
-**Looking to fully automate your operations-to-finance pipeline?**
-We are currently onboarding a limited number of teams for our Private Beta. 
-Drop us a line at **info@coaxon.me** to discuss your current tech stack and request early access.
 ## License
 
 [MIT](LICENSE)
+
+---
+
+## Beyond the API: CoAxon Finance MCP (Private Beta)
+
+Tired of manually reconciling Amazon settlements with bloated ERPs like QuickBooks or NetSuite?
+
+While `amazon-mcp` handles your operational read/writes, the **CoAxon Finance MCP** is our closed-source, enterprise-grade financial nervous system designed specifically for multi-platform sellers and early-stage startups.
+
+We replaced fragile spreadsheets and complex accounting software with a lightweight, AI-native financial ledger:
+
+- **Automated Ingestion**: Seamlessly unifies Amazon disbursements, Stripe webhook payouts, and manual CSV uploads into a single standard pipeline.
+- **Immutable Ledger Security**: Built with strict database-level Trigger Locks and tamper-proof audit trails. No silent overwrites, ever.
+- **Real-Time Reporting**: Instantly generate Profit & Loss (P&L), Balance Sheets, and Cash Flow statements without the end-of-month scramble.
+- **Zero Redundancy**: Smart resume protocols ensure that no transaction is ever verified or recorded twice, keeping your ledger perfectly balanced.
+
+Because strict financial compliance and multi-tenant isolation require absolute precision, the core Finance MCP is maintained as a closed-source managed service.
+
+Looking to fully automate your operations-to-finance pipeline? We are currently onboarding a limited number of teams for our **Private Beta**. Drop us a line at info@coaxon.me to discuss your current tech stack and request early access.
